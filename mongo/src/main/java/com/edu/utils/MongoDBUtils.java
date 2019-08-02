@@ -1,4 +1,4 @@
-package com.edu.com.edu.utils;
+package com.edu.utils;
 
 import com.mongodb.*;
 
@@ -7,7 +7,9 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * 该工具类用于获取MongoClient
+ * 获取mongoClient工具类
+ * @author Alex.Xiao
+ * @since 2019-08-02
  */
 public class MongoDBUtils {
     public static MongoClient initMongo() throws IOException {

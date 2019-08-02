@@ -1,8 +1,6 @@
 package com.edu.utils;
 
-import com.edu.com.edu.utils.MongoDBUtils;
 import com.mongodb.MongoClient;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.io.IOException;
