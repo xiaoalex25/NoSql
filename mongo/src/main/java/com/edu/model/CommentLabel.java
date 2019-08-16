@@ -5,7 +5,7 @@ package com.edu.model;
  * @author Alex.Xiao
  * @since 2019-08-02
  */
-public class CommentLabels {
+public class CommentLabel {
     private String content;
 
     public String getContent() {

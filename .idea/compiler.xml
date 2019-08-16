@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mongo" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mongo" target="8" />
+      <module name="mongo" target="1.5" />
+      <module name="redis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
